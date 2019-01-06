@@ -11,7 +11,7 @@ var catalogRouter = require('./routes/catalog');
 var app = express();
 
 var mongoose = require('mongoose');
-var mongoDB = "mongodb://username:password@ds163013.mlab.com:63013/local_library";
+var mongoDB = "mongodb://united:password1@ds163013.mlab.com:63013/local_library";
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
